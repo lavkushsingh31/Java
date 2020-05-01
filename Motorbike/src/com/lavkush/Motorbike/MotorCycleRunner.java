@@ -9,8 +9,6 @@ public class MotorCycleRunner {
 		
 		int currentSpeedBajaj, currentSpeedYamaha;
 		
-		//String convertedToString = new String("yamaha");
-		//System.out.println("Checking "+ convertedToString );
 		yamaha.startMotorCycle(new String("Yamaha"));
 		bajaj.startMotorCycle(new String("Bajaj"));
 		
@@ -24,8 +22,18 @@ public class MotorCycleRunner {
 		System.out.println("Current Speed of Yamaha: "+currentSpeedBajaj);
 		
 		System.out.println("\nIncreasing Speed!\n");
-		yamaha.increaseSpeed(50);
-		bajaj.increaseSpeed(50);
+		yamaha.increaseSpeed(10);
+		bajaj.increaseSpeed(20);
+		
+		currentSpeedYamaha = yamaha.getSpeed();
+		currentSpeedBajaj = bajaj.getSpeed();
+		
+		System.out.println("Current Speed of Yamaha: "+currentSpeedYamaha);
+		System.out.println("Current Speed of Yamaha: "+currentSpeedBajaj+"\n");
+		
+		System.out.println("\nDecreasing Speed!\n");
+		yamaha.decreaseSpeed(20);
+		bajaj.decreaseSpeed(10);
 		
 		currentSpeedYamaha = yamaha.getSpeed();
 		currentSpeedBajaj = bajaj.getSpeed();
