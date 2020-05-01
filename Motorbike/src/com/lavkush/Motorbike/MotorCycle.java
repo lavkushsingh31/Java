@@ -28,13 +28,14 @@ public class MotorCycle {
 	
 	public void increaseSpeed(int factor)
 	{
-		this.speed = this.speed + factor;
+		if(this.speed + factor > 0)
+			setSpeed(this.speed + factor);
 	}
 
 	public void decreaseSpeed(int factor)
 	{
 		if(this.speed - factor > 0) {
-			this.speed = this.speed - factor;
+			setSpeed(this.speed - factor);
 		}
 	}
 }
