@@ -1,4 +1,4 @@
-package table;
+package com.javalearning.lavkush;
 
 import java.util.Scanner;
 
