@@ -33,4 +33,16 @@ public class MyChar {
 			return true;
 		return false;
 	}
+	
+	public static void printLowerCaseAlphabets() {
+		for(char i = 97; i <= 122; i++) {
+			System.out.print(i+"\t");
+		}
+	}
+	
+	public static void printUpperCaseAlphabets() {
+		for(char i = 65; i <= 90; i++) {
+			System.out.print(i+"\t");
+		}
+	}
 }
