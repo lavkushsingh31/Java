@@ -19,6 +19,13 @@ public class MyCharRunner {
 		System.out.println("Is this consonent: "+mychar.isConsonent());
 		System.out.println("Is this Digit: "+mychar.isDigit());
 		System.out.println("Is this Alphabet: "+mychar.isAlhpabet());
+		
+		System.out.println("\n\nPrinting Upper case letters \n");
+		MyChar.printUpperCaseAlphabets();
+		
+		System.out.println("\n\n\nPrinting Lower case letters \n");
+		MyChar.printLowerCaseAlphabets();
+		
 	}
 
 }
