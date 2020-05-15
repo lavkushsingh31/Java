@@ -1,4 +1,4 @@
-package com.lavkush.ArithmeticOperations;
+package com.lavkush.IfElseSwitchCases;
 
 import java.util.Scanner;
 
@@ -35,8 +35,7 @@ public class ArithmeticMenuRunner {
 		} else if (choice == 4) {
 			System.out.println("You have selected : Division");
 			System.out.println("The result is: "+obj.getNum1()+" / "+obj.getNum2()+" = "+obj.divide());
-		} else
-		{
+		} else {
 			System.out.println("You have entered the invalid choice, Please try again!");
 		}
 
