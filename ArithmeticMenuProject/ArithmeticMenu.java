@@ -1,4 +1,4 @@
-package com.lavkush.ArithmeticOperations;
+package com.lavkush.IfElseSwitchCases;
 
 public class ArithmeticMenu {
 	
